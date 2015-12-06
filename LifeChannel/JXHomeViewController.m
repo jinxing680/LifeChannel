@@ -17,8 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"打印...");
-     NSLog(@"打印...");
+
 
     self.tableview.backgroundColor = [UIColor brownColor];
 //            [self localNotiication];
