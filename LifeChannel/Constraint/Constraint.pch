@@ -1,0 +1,32 @@
+//
+//  Constraint.pch
+//  LifeChannel
+//
+//  Created by 白金星 on 15/12/2.
+//  Copyright © 2015年 cn.bjx680. All rights reserved.
+//  $(SRCROOT)/Constraint.pch
+
+
+
+#pragma mark -约束值
+#define KUIScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define KUIScreenHeight  [UIScreen mainScreen].bounds.size.height
+#define KUIScreenBounds [UIScreen mainScreen].bounds
+#define KUInavBarHeight  64
+#define kUIStatusBarHeight  20
+#define kUITabBarHeight     49
+
+//主页的搜索对应6个url：景点，周边游，国内游，出境游，酒店，景＋酒
+#define kScenic @"http://www.juntu.com/index.php?m=app&c=scenic_rec&a=dest&keyword="   //destList
+#define kAround @"http://www.juntu.com/index.php?m=app&c=route_rec&a=tours&tourstype=1&keyword=" //toursList
+#define kInland @"http://www.juntu.com/index.php?m=app&c=route_rec&a=tours&tourstype=2&keyword=" //toursList
+
+
+//首页点击进入的列表url
+#define kScenicRecommend @"http://www.juntu.com/index.php?m=app&c=scenic_rec&a=dest_recommend"//景区列表 destList
+#define kRouteReForeign @"http://www.juntu.com/index.php?m=app&c=route_rec&a=route_recommend_list&type=foreign"//出境游列表  list
+#define kRouteReInland @"http://www.juntu.com/index.php?m=app&c=route_rec&a=route_recommend_list&type=inland"//国内游列表 list
+#define kRouteTourstype @"http://www.juntu.com/index.php?m=app&c=route_rec&a=tours&tourstype=1"//周边游列表 toursList
+#define kScenicHotelLists @"http://www.juntu.com/index.php?m=app&c=scenic_hotel&a=lists"//景加酒列表 info
+
+
